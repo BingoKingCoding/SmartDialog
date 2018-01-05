@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 分割线 -->
+    <color name="lib_dialog_stroke">#e7e7f1</color>
+
+    <!-- 按钮正常颜色 -->
+    <color name="lib_dialog_bg_button_normal">#FFFFFF</color>
+    <!-- 按钮按下颜色 -->
+    <color name="lib_dialog_bg_button_pressed">#e5e5e5</color>
+
+</resources>
