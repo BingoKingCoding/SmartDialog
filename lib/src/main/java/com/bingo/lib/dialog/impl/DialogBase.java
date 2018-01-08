@@ -7,7 +7,6 @@ import android.content.DialogInterface;
 import android.graphics.drawable.Drawable;
 import android.os.Handler;
 import android.os.Looper;
-import android.support.annotation.NonNull;
 import android.view.Gravity;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -25,12 +24,12 @@ public class DialogBase extends Dialog implements IDialogBase, View.OnClickListe
     private View mContentView;
     private boolean mDismissAfterClick = true;
 
-    public DialogBase(@NonNull Activity activity)
+    public DialogBase(Activity activity)
     {
         this(activity, R.style.libDialog_Dialog_Dim);
     }
 
-    public DialogBase(@NonNull Activity activity, int themeResId)
+    public DialogBase(Activity activity, int themeResId)
     {
         super(activity, themeResId);
 

@@ -1,7 +1,7 @@
 apply plugin: 'com.android.library'
 apply plugin: 'com.github.dcendents.android-maven'
 
-group='com.bingo.king'
+group='com.github.BingoKingCoding'
 
 android {
     compileSdkVersion 26

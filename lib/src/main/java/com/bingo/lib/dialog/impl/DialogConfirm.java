@@ -1,7 +1,6 @@
 package com.bingo.lib.dialog.impl;
 
 import android.app.Activity;
-import android.support.annotation.NonNull;
 import android.text.TextUtils;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -26,7 +25,7 @@ public class DialogConfirm extends DialogBase implements IDialogConfirm
 
     private Callback mCallback;
 
-    public DialogConfirm(@NonNull Activity activity)
+    public DialogConfirm(Activity activity)
     {
         super(activity);
         init();
